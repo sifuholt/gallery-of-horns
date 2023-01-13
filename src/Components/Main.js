@@ -15,7 +15,7 @@ class Main extends React.Component{
         description={hornedbeast.description} 
         key={hornedbeast._id} 
         horns={hornedbeast.horns} />
-      })};
+      })}
     </main>
     </>
     
@@ -24,7 +24,7 @@ class Main extends React.Component{
 }
 
 
-export default Main;
+export default Main
 
 
 //{/* <HornedBeast */}
